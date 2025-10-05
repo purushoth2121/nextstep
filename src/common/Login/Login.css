@@ -1,0 +1,152 @@
+.login-container {
+    /* background: url("https://images.unsplash.com/photo-1521791136064-7986c2920216") no-repeat center center fixed; */
+    /* background-size: cover; */
+    background: linear-gradient(135deg, #1E3A8A, #2563eb, #3b82f6);
+    text-align: center;
+    width: 100%;
+
+}
+.heading {
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    text-shadow: 2px 2px 4px rgba(216, 203, 203, 0.911);
+}
+
+.login-section {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    box-shadow: 0 4px 8px 1E3A8A;
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.login-content {
+    background-color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 50px;
+    padding: 25px;
+    border: 2px solid white;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: moveup 0.5s ease-in-out;
+}
+
+@keyframes moveup {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.login-content ul:hover {
+    box-shadow: 0 4px 8px rgba(202, 134, 134, 0.4);
+}
+
+.login-content ul {
+    color: #1E3A8A;
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px;
+    text-align: left;
+}
+
+.login-container ul li::before {
+    content: "✔";
+    color: green;
+    margin-right: 10px;
+
+}
+
+.login-content ul li {
+    opacity: 0;
+    transform: translateX(-30px);
+    animation: fadein 0.8s ease-in-out forwards;
+    animation-delay: 0.3s;
+}
+
+@keyframes fadein {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.login-section FORM {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    animation: fadeinform 0.5s ease-in-out;
+}
+
+.login-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.login-btn Button {
+    margin-top: 10px;
+    width: 100%;
+    background-color: #facc15;
+}
+
+Form {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+Form.Control {
+    border: 2px solid black;
+}
+
+.about-container {
+    color: black;
+    margin-top: 30px;
+}
+
+.about-section {
+    margin-top: 40px;
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    color: #1E3A8A;
+    font-weight: bold;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-section p {
+    background-color: #ffffff;
+    border: #1E3A8A solid 2px;
+    padding: 20px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.about-section p:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(202, 134, 134, 0.4);
+
+}

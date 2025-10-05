@@ -1,0 +1,40 @@
+
+.profile-container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile-container h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.profile-container button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.save{
+    background-color: green;
+    
+}
+.delete{
+    background-color: red;
+}
+
+@media screen and (max-width:500px) {
+    .createjob-form {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .profile-container {
+        margin-top: 10px;
+        padding-left: 0px;
+    }
+}

@@ -1,0 +1,23 @@
+:root {
+  --main-theme-bg: #fc8019e6
+}
+
+.app {
+  padding: 10px;
+}
+main{
+  font-size: 18px;
+  background-color: #f9fafb;
+  color: #333333
+}
+
+.screen-container {
+  display: flex;
+}
+@media screen and (max-width: 400px) {
+  .screen-container {
+    flex-direction: column;
+    position: relative; 
+   }
+
+}

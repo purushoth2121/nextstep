@@ -1,0 +1,9 @@
+.footer-caontainer {
+    background-color: #1E3A8A;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+}

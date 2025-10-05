@@ -1,0 +1,100 @@
+.createjob-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+  padding: 20px;
+  background: #f8f9fa;
+  width:900px;
+}
+
+.create-job {
+  width: 100%;
+  max-width: 500px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  text-align: center;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.createjob-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.createjob-form label {
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #444;
+  display: flex;
+  flex-direction: column;
+}
+
+.createjob-form input,
+.createjob-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+  transition: all 0.2s ease-in-out;
+}
+
+.createjob-form input:focus,
+.createjob-form textarea:focus {
+  border-color: #28a745;
+  box-shadow: 0 0 5px #28a74555;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background: #28a745;
+  color: white;
+  border: none;
+  font-size: 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.submit-btn:hover {
+  background: #1e7e34;
+}
+
+@media (max-width: 500px) {
+    *{
+        padding: 0;
+    }
+    .createjob-container{
+        width:100%;
+    }
+  .create-job {
+    padding: 20px;
+    max-width: 90%;
+  }
+
+  .title {
+    font-size: 18px;
+  }
+
+  .createjob-form label {
+    font-size: 13px;
+  }
+
+  .submit-btn {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
