@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/purushoth2121/nextstep.git/static/css/main.bfc2fc1c.css",
+    "main.js": "/purushoth2121/nextstep.git/static/js/main.be9ff348.js",
+    "static/js/453.580cde45.chunk.js": "/purushoth2121/nextstep.git/static/js/453.580cde45.chunk.js",
+    "index.html": "/purushoth2121/nextstep.git/index.html",
+    "main.bfc2fc1c.css.map": "/purushoth2121/nextstep.git/static/css/main.bfc2fc1c.css.map",
+    "main.be9ff348.js.map": "/purushoth2121/nextstep.git/static/js/main.be9ff348.js.map",
+    "453.580cde45.chunk.js.map": "/purushoth2121/nextstep.git/static/js/453.580cde45.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfc2fc1c.css",
+    "static/js/main.be9ff348.js"
+  ]
+}
